@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="left"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnGetNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Photo" />
+
+    
+
+      <Gallery
+    android:id="@+id/gallery"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+
+      <TableRow
+          android:id="@+id/tableRow1"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent" >
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:gravity="center_horizontal|center_vertical"
+              android:orientation="vertical" >
+              
+              <Button
+        android:id="@+id/btnSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Server" >
+        </Button>
+        
+              <Button 
+      android:id="@+id/btnAuth" 
+	  android:text="Link with Dropbox" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:paddingBottom="6dip"
+	  />
+              
+              
+              <Button
+        android:id="@+id/btnDel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+        
+              
+          </LinearLayout>
+          
+          
+          
+          
+          <ImageView 
+		    android:id="@+id/picture"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:contentDescription="@string/picture" />
+          
+      </TableRow>
+
+    
+
+    
+
+</LinearLayout>

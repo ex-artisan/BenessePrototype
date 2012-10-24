@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/realGraffitiMainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <com.artisan.apps.blab.LiveCameraView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="True"
+        android:layout_alignParentTop="True"
+        android:id="@+id/cameraLiveView"
+    />
+    
+        <Button
+            android:id="@+id/addNewPhotoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#80808080"
+            android:drawableTop="@drawable/paintnew2"
+            android:textColor="#FFFFFFFF"
+            />
+        
+        <Button
+            android:id="@+id/addNewPhotoButtonDis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#80808080"
+            android:textColor="#FFFFFFFF"
+            android:drawableTop="@drawable/paintnew3"
+            android:visibility="gone" />
+
+</RelativeLayout>

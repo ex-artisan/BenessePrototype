@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+   android:summary="Connection Information"
+   android:title="Connection information" >
+  <EditTextPreference
+     android:key="username"
+     android:summary="Please enter your upload username"
+     android:title="Username" />
+  <EditTextPreference
+     android:key="serverurl"
+     android:summary="Enter upload server"
+     android:title="Url (have http://)" />
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="Format Export"
+   android:title="Format File" >
+  <ListPreference
+     android:entries="@array/listOptions"
+     android:entryValues="@array/listValues"
+     android:key="listpref"
+     android:summary="Select type of export file."
+     android:title="Type file" />
+  
+  <CheckBoxPreference
+     android:key="checkBoxGray"
+     android:summary="On/Off"
+     android:title="Grayscale Export:" />
+  
+  
+  <EditTextPreference
+     android:key="picWidth"
+     android:summary="Pixel"
+     android:title="Width of Export Photo" />
+  
+  <EditTextPreference
+     android:key="picHeight"
+     android:summary="Pixel"
+     android:title="Height of Export Photo" />
+  
+ </PreferenceCategory>
+ 
+</PreferenceScreen> 

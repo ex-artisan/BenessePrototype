@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PicGallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+    
+   <string-array name="listOptions">
+     <item>PNG</item>
+     <item>JPG</item>
+     </string-array>
+
+   <string-array name="listValues">
+     <item>1</item>
+     <item>2</item>
+   </string-array>
+    
+</resources>
